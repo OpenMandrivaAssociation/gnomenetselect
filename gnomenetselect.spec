@@ -9,6 +9,7 @@ Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Graphical desktop/GNOME
+BuildRoot: %{_tmppath}/%{name}-buildroot
 URL: http://gnomenetselect.sourceforge.net/
 BuildRequires: libpanel-applet-devel
 BuildRequires: scrollkeeper
