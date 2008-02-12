@@ -20,7 +20,6 @@ Requires(postun): scrollkeeper >= 0.3
 
 
 %description
-
 Gnome NetSelect gives you a button for launching a web browser, and
 jumping to URL or search results.
 
