@@ -12,6 +12,7 @@ Group: Graphical desktop/GNOME
 BuildRoot: %{_tmppath}/%{name}-buildroot
 URL: http://gnomenetselect.sourceforge.net/
 BuildRequires: libpanel-applet-devel
+BuildRequires: libglade2.0-devel
 BuildRequires: scrollkeeper
 BuildRequires: libxmu-devel
 Requires: webclient
