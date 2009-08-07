@@ -1,6 +1,6 @@
 %define name gnomenetselect
 %define version 0.6
-%define release %mkrel 9
+%define release %mkrel 10
 
 Summary: Enhanced Mozilla launch button for the GNOME panel
 Name: %{name}
@@ -13,6 +13,7 @@ BuildRoot: %{_tmppath}/%{name}-buildroot
 URL: http://gnomenetselect.sourceforge.net/
 BuildRequires: libpanel-applet-devel
 BuildRequires: libglade2.0-devel
+BuildRequires: libgnomeui2-devel
 BuildRequires: scrollkeeper
 BuildRequires: libxmu-devel
 Requires: webclient
