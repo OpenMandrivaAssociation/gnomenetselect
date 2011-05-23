@@ -1,6 +1,6 @@
 %define name gnomenetselect
 %define version 0.6
-%define release %mkrel 10
+%define release %mkrel 11
 
 Summary: Enhanced Mozilla launch button for the GNOME panel
 Name: %{name}
