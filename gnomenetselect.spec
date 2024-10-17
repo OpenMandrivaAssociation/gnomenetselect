@@ -10,7 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPLv2+
 Group: Graphical desktop/GNOME
 BuildRoot: %{_tmppath}/%{name}-buildroot
-URL: http://gnomenetselect.sourceforge.net/
+URL: https://gnomenetselect.sourceforge.net/
 BuildRequires: libpanel-applet-devel
 BuildRequires: libglade2.0-devel
 BuildRequires: libgnomeui2-devel
