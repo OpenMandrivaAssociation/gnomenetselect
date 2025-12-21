@@ -11,6 +11,11 @@ License: GPLv2+
 Group: Graphical desktop/GNOME
 BuildRoot: %{_tmppath}/%{name}-buildroot
 URL: https://gnomenetselect.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libpanel-applet-devel
 BuildRequires: libglade2.0-devel
 BuildRequires: libgnomeui2-devel
